@@ -40,10 +40,10 @@ const minimumScore = 100;
 console.log(
   `Team dumebi Bonus1 is ${teamDumebiBonus1}, and team Ciroma bonus1 is ${teamCiromaBonus1} `
 );
-if ((teamDumebiBonus1) => minimumScore && teamDumebiBonus1 > teamCiromaBonus1) {
+if (teamDumebiBonus1 => minimumScore && teamDumebiBonus1 > teamCiromaBonus1) {
   console.log("team Ciroma wins");
 } else if (
-  (teamCiromaBonus1) => minimumScore && teamCiromaBonus1 > teamDumebiBonus1
+  teamCiromaBonus1 => minimumScore && teamCiromaBonus1 > teamDumebiBonus1
 ) {
   console.log("team Ciroma wins");
 } else {
